@@ -28,6 +28,8 @@
                 <li><a href="#"><i class="fas fa-briefcase"></i>Portfolio</a></li>
                 <li><a href="#"><i class="fas fa-server"></i>Services</a></li>
                 <li><a href="#"><i class="fas fa-envelope"></i>Contact</a></li>
+                <li><button class="button login"><i class="fas fa-sign-in-alt"></i><a href="#Login"> Login</a></button></li>
+                    <li><button class="button register"><i class="fas fa-user-plus"></i><a href="#Register"> Register</a></button></li>
             </ul>
         </nav>
     </header>
@@ -209,46 +211,173 @@
                         <li>Technical Support</li>
                         <li>Problem Solving</li>
                     </ul>
+                    <span class="skill-label">System Integration</span>
+                    <div class="progress-bar">
+                        <div class="progress-value" style="width: 100%;"></div>
+                    </div>
+                    <p>100%</p>
+                </div>
+        
+                <div class="skill">
+                    <span class="skill-label">Security Management</span>
+                    <div class="progress-bar">
+                        <div class="progress-value" style="width: 99%;"></div>
+                    </div>
+                    <p>99%</p>
+                </div>
+        
+                <div class="skill">
+                    <span class="skill-label">Web Development (HTML, CSS, JavaScript)</span>
+                    <div class="progress-bar">
+                        <div class="progress-value" style="width: 90%;"></div>
+                    </div>
+                    <p>90%</p>
+                </div>
+        
+                <div class="skill">
+                    <span class="skill-label">Database Management (MySQL)</span>
+                    <div class="progress-bar">
+                        <div class="progress-value" style="width: 100%;"></div>
+                    </div>
+                    <p>100%</p>
+                </div>
+        
+                <div class="skill">
+                    <span class="skill-label">DevOps and Automation</span>
+                    <div class="progress-bar">
+                        <div class="progress-value" style="width:95%;"></div>
+                    </div>
+                    <p>95%</p>
+                </div>
+            </div>
+                    </div>
+                </div>
+        
+            </div>
+        </div>
             </div>
         </section>
         <section id="Portfolio">
             <h1 class="sub-heading">Portfolio</h1>
             <div class="divider"></div>
-                            <img src="./phon1.png">
-                            <div class="Layer">
-                                <h3>Social Media</h3>
-                                <p>the App connects you talented people around the world . download it from Play store</p>
-                                <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-            
-                            </div>
-            
-                        </div>
-                        <div class="Work">
-                            <img src="./phone2.png">
-                            <div class="Layer">
-                                <h3>Music APP</h3>
-                                <p>the App connects you talented people around the world . download it from Play store</p>
-                                <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-            
-                            </div>
-            
-                        </div>
-                        <div class="Work">
-                            <img src="./phone3.png">
-                            <div class="Layer">
-                                <h3>Online shopping App</h3>
-                                <p>the App connects you talented people around the world . download it from Play store</p>
-                                <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-            
-                            </div>
-            
-                        </div>
+            <p class="sub-para"> <div id="Portfolio" class="select">
+                <div class="portfolio">
+                    <h2> wellcome to my Portfolio</h2>
+    
+                    <!-- Networking Project -->
+                    <div class="project">
+                        <img src="./img24.png" alt="Networking Project">
+                        <h3>Networking Project</h3>
+                        <p>Designed and implemented a secure network infrastructure for a medium-sized enterprise.</p>
+                        <a href="networking-project-details.html" target="_blank">View Details</a>
                     </div>
-            
+    
+                    <!-- Linux Administration Project -->
+                    <div class="project">
+                        <img src="./img25.png" alt="Linux Project">
+                        <h3>Linux Administration Project</h3>
+                        <p>Automated system administration tasks using shell scripting and Ansible for improved efficiency.</p>
+                        <a href="linux-project-details.html" target="_blank">View Details</a>
+                    </div>
+    
+                    <!-- DevOps Project -->
+                    <div class="project">
+                        <img src="./img26.png" alt="DevOps Project">
+                        <h3>DevOps Project</h3>
+                        <p>Implemented a CI/CD pipeline with Jenkins and Docker for continuous deployment of applications.</p>
+                        <a href="devops-project-details.html" target="_blank">View Details</a>
+                    </div>
                 </div>
-            
             </div>
         </section>
+        <div id="Contact" class="select">
+            <div class="contact">
+                <h2>Contact Me</h2>
+                <p>Feel free to reach out to me through the following channels:</p>
+                <p>Phone: 0728408378</p>
+                <p>Email: ganzaneza@gmail.com</p>
+                <p>Location: Uganda, Makerere</p>
+
+                <ul>
+                    <li>
+                        <strong>Email:</strong> <a href="mailto:ganzaneza35@gmail.com">ganzaneza35@gmail.com</a>
+                    </li>
+                    <li>
+                        <strong>Phone:</strong> 0728408378
+                    </li>
+                    <li>
+                        <strong>GitHub:</strong> <a href="https://github.com/ganzagithub/testing" target="_blank">github.com/ganzagithub/testing</a>
+                    </li>
+                </ul>
+                <!-- Location Container -->
+                <div id="locationContainer">
+                    <h2>My Location</h2>
+                    <p id="locationText">Loading...</p>
+                </div>
+
+                <!-- Google Map -->
+                <div id="map"></div>
+                <iframe
+                    width="600"
+                    height="450"
+                    frameborder="0"
+                    style="border:0"
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyByxYezwJkBx30JVHP2iKilX2DsrTi2fls=-1.9309322273204919,30.061491536256728"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+        <!-- Download CV Section -->
+        <div class="download-cv">
+            <a href="path/to/your/cv.pdf" download><button class="btn"><i class="fas fa-download"></i> Download CV</button></a>
+        </div>
+
+        <!-- Login Section -->
+        <div id="Login" class="select">
+            <div class="form-LOGIN">
+                <div class="login">
+                    <form>
+                        <label for="login-form">Login</label><br>
+                        <label for="username">Username</label>
+                        <input type="email" name="username" required><i class="fas fa-envelope"></i>
+                        <br>
+                        <label for="password">Password</label>
+                        <input type="password" name="password" required><i class="fas fa-lock"></i>
+                        <div class="button-container">
+                            <input type="checkbox" name="check" id="remember-me" checked>
+                            <label for="remember-me">Remember me</label>
+                            <button type="button" class="btn">LOGIN</button>
+                            <a href="#">Forgot password</a>
+                        </div>
+                    </form>
+                    <p class="Pone">Don't have an account? Register <a href="#" class="register">here</a></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Register Section -->
+        <div id="Register" class="select">
+            <div class="form-registration">
+                <div class="register">
+                    <form>
+                        <label for="register-form">Registration Form</label><br>
+                        <label for="name">Full Name</label>
+                        <input type="text" name="name" placeholder="Enter your full name" required><br>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" placeholder="Enter your email" required><i class="fas fa-envelope"></i>
+                        <br>
+                        <label for="password">Password</label>
+                        <input type="password" name="password" placeholder="Enter your password" required><i class="fas fa-lock"></i><br>
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" name="confirm-password" placeholder="Confirm your password" required><i class="fas fa-unlock"></i>
+                        <div class="button-container">
+                           <button type="button" class="btn">REGISTER</button><a href="#">Terms and conditions</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     </main>
     <div class="footer">
         <p>&copy; copyright 2023 <br> Designed by <a href="https://aganza.xyz" target="_blank">GNEZA.XYZ</a></p>

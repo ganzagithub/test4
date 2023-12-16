@@ -554,3 +554,169 @@ border-radius: 20px;
         padding: 5px 10px;
         border-radius: 5px;
     }
+    .select {
+        margin-top: 20px;
+    }
+    
+    .header {
+        text-align: center;
+        padding: 20px;
+        background-color: #3498db;
+        color: #fff;
+    }
+    
+    .form-LOGIN,
+    .form-registration,
+    .portfolio,
+    .about,
+    .contact,
+    .download-cv,
+    .experience {
+        background-color: #e2a7a7;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 70%;
+        margin: 20px auto;
+    }
+    
+    .form-LOGIN {
+        text-align: center;
+    }
+    
+    .login {
+        max-width: 500px;
+        margin: 0 auto;
+        border: 1px solid #5e2d2dab; /* Add border for visual separation */
+        border-radius: 10px; /* Add border-radius for rounded corners */
+        padding: 20px;
+    }
+    
+    .login form {
+        border-radius: 20px solid;
+    }
+    
+    .login label {
+        margin-bottom: 5px;
+    }
+    
+    .login input {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        border: 1px solid #461e1e; /* Add border for input elements */
+        border-radius: 5px; /* Add border-radius for rounded corners */
+    }
+    
+    .login .button-container {
+        text-align: center;
+    }
+    
+    .login input[type="checkbox"] {
+        vertical-align: middle;
+    }
+    
+    .login label[for="remember-me"] {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 10px; /* Adjust margin for spacing */
+    }
+    
+    .login .btn,
+    .login a {
+        display: block;
+        margin-top: 10px; /* Adjust margin for spacing between lines */
+    }
+    
+    .Pone {
+        margin-top: 20px;
+    }
+    
+    .form-registration {
+        text-align: center;
+    }
+    
+    .register {
+        max-width: 500px;
+        margin: 0 auto;
+        border: 10px solid #ccc; /* Add border for visual separation */
+        border-radius: 30px; /* Add border-radius for rounded corners */
+        padding: 20px;
+    }
+    
+    .register form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .register label {
+        margin-bottom: 5px;
+    }
+    
+    .register input {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        border: 10px solid #311f1f; /* Add border for input elements */
+        border-radius: 6px; /* Add border-radius for rounded corners */
+    }
+    
+    .register .button-container {
+        text-align: center;
+    }
+    
+    .register .btn,
+    .register a {
+        display: block;
+        margin-top: 10px; /* Adjust margin for spacing between lines */
+    }
+    
+    
+    .button {
+        background: #683a3a;
+        cursor: pointer;
+        color: brown;
+    }
+    
+    
+    h2 {
+        color: #333;
+    }
+    .skill {
+        margin-bottom: 20px;
+    }
+    .skill-label {
+        font-weight: bold;
+    }
+    .progress-bar {
+        height: 20px;
+        background-color: #eee;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .progress-value {
+        height: 100%;
+        background-color: #4caf50; /* Green color for the progress */
+    }
+     .register{
+        justify-content: space-between;
+        align-items: center;
+    }
+    #locationContainer {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }#map {
+        height: 400px;
+                width: 100%;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+html{
+    scroll-behavior: smooth;
+}
