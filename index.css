@@ -148,7 +148,7 @@ transition: 0.3s;
 #Home{
     height: 100vh;
     width: 100%;
-    background-image: url(./ganza2.png);
+    background-image: url(./img/ganza2.png);
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -565,122 +565,6 @@ border-radius: 20px;
         color: #fff;
     }
     
-    .form-LOGIN,
-    .form-registration,
-    .portfolio,
-    .about,
-    .contact,
-    .download-cv,
-    .experience {
-        background-color: #e2a7a7;
-        padding: 20px;
-        border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        width: 70%;
-        margin: 20px auto;
-    }
-    
-    .form-LOGIN {
-        text-align: center;
-    }
-    
-    .login {
-        max-width: 500px;
-        margin: 0 auto;
-        border: 1px solid #5e2d2dab; /* Add border for visual separation */
-        border-radius: 10px; /* Add border-radius for rounded corners */
-        padding: 20px;
-    }
-    
-    .login form {
-        border-radius: 20px solid;
-    }
-    
-    .login label {
-        margin-bottom: 5px;
-    }
-    
-    .login input {
-        width: 100%;
-        padding: 8px;
-        margin-bottom: 10px;
-        box-sizing: border-box;
-        border: 1px solid #461e1e; /* Add border for input elements */
-        border-radius: 5px; /* Add border-radius for rounded corners */
-    }
-    
-    .login .button-container {
-        text-align: center;
-    }
-    
-    .login input[type="checkbox"] {
-        vertical-align: middle;
-    }
-    
-    .login label[for="remember-me"] {
-        display: inline-block;
-        vertical-align: middle;
-        margin-right: 10px; /* Adjust margin for spacing */
-    }
-    
-    .login .btn,
-    .login a {
-        display: block;
-        margin-top: 10px; /* Adjust margin for spacing between lines */
-    }
-    
-    .Pone {
-        margin-top: 20px;
-    }
-    
-    .form-registration {
-        text-align: center;
-    }
-    
-    .register {
-        max-width: 500px;
-        margin: 0 auto;
-        border: 10px solid #ccc; /* Add border for visual separation */
-        border-radius: 30px; /* Add border-radius for rounded corners */
-        padding: 20px;
-    }
-    
-    .register form {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .register label {
-        margin-bottom: 5px;
-    }
-    
-    .register input {
-        width: 100%;
-        padding: 8px;
-        margin-bottom: 10px;
-        box-sizing: border-box;
-        border: 10px solid #311f1f; /* Add border for input elements */
-        border-radius: 6px; /* Add border-radius for rounded corners */
-    }
-    
-    .register .button-container {
-        text-align: center;
-    }
-    
-    .register .btn,
-    .register a {
-        display: block;
-        margin-top: 10px; /* Adjust margin for spacing between lines */
-    }
-    
-    
-    .button {
-        background: #683a3a;
-        cursor: pointer;
-        color: brown;
-    }
-    
-    
     h2 {
         color: #333;
     }
@@ -698,25 +582,206 @@ border-radius: 20px;
     }
     .progress-value {
         height: 100%;
-        background-color: #4caf50; /* Green color for the progress */
+        background-color: #4caf50;
     }
-     .register{
-        justify-content: space-between;
-        align-items: center;
-    }
-    #locationContainer {
-        background-color: #fff;
-        padding: 20px;
-        border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        text-align: center;
-    }#map {
-        height: 400px;
-                width: 100%;
-        border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
+     
 
 html{
     scroll-behavior: smooth;
+}
+#portfolio {
+    background-color: #b12121;
+    padding: 20px;
+    text-align: center;
+}
+
+.port-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project {
+    border: 1px solid #5f5858;
+    border-radius: 5px;
+    padding: 20px;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.project:hover {
+    background-color: #581b1b;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+#services {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.service {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #a03030;
+    border-radius: 5px;
+    background-color: #646060;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.service:hover {
+    background-color: #e0e0e0;
+}
+
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+    #Contact {
+        padding: 70px 30px;
+    }
+    
+    #Contact .contact-row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+    
+    #Contact .contact-row .contact-left {
+        flex: 0 0 40%;
+        min-width: 40px;
+        background-color: white;
+        box-shadow: 0 0 20% rgba(0, 0, 0, 20%);
+        border-radius: 30px;
+        padding: 30px;
+    }
+    
+    #Contact .contact-row .contact-left .icon-box {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        margin: 30px 0;
+    }
+    
+    #Contact .contact-row .contact-left .icon-box .icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 2px solid var(--themeBGcolor);
+        text-align: center;
+        line-height: 47px;
+        font-size: 20px;
+        color: var(--themeBGcolor);
+        transition: 0.5s;
+    }
+    #Contact .contact-row .contact-left .icon-box .icon:hover i {
+        background-color: var(--themeBGcolor);
+        color: var(--bgcolor);
+    }
+    
+    
+    #Contact .contact-row .contact-left .icon-box :hover .icon i {
+        background-color: var(--themeBGcolor);
+        color: var(--bgcolor);
+    }
+    
+    #Contact .contact-row .contact-left .icon-box .info h4 {
+        font-size: 20px;
+        color: var(--sideBGcolor);
+        font-weight: 600;
+    }
+    
+    #Contact .contact-row .contact-left .icon-box .info h4 + p {
+        color: var(--textcolor);
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+    #Contact .contact-row .contact-right {
+        flex: 0 0 60%;
+        min-width: 60px;
+        background-color: white;
+        box-shadow: 0 0 20% rgba(0, 0, 0, 20%);
+        border-radius: 30px;
+        padding: 30px;
+    }
+    
+    #Contact .contact-row .contact-right form {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    #Contact .contact-row .contact-right form input,
+    #Contact .contact-row .contact-right form textarea {
+        display: block;
+        width: 100%;
+        margin: 0;
+        font-size: 15px;
+        font-weight: 500;
+        color: var(--themeBGcolor);
+        padding: 10px 20px;
+        border: 2px solid lightgray;
+        border-radius: 2px;
+        outline: none;
+        resize: none;
+        transition: 0.5s;
+    }
+    #Contact .contact-row .contact-left,
+#Contact .contact-row .contact-right {
+    background-color: green;
+   
+}
+#Contact .map {
+    display: none;
+}
+#Contact .contact-row .contact-right form input[type=submit]{
+background-color:#646060;
+cursor: var(--iconBGcolor);
+border: 2px solid white;
+font-size: 17px;
+font-weight: 400;
+cursor: pointer;
+}
+@media only screen and (max-width:800px) {
+    
+    #Contact {
+        padding: 50px 10px;
+    }
+    
+    #Contact .contact-row {
+      flex-direction: column;
+      gap: 10px;
+    }
+}
+@media only screen and (max-width:800px) {
+    
+    #Contact {
+        padding: 50px 10px;
+    }
+    
+    #Contact .contact-row {
+      flex-direction: column;
+      gap: 10px;
+    }
+}
+#notification {
+    display: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
 }
